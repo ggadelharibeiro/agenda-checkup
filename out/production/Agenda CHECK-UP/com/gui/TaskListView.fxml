@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="375.0" prefWidth="600.0" style="-fx-background-color: #f7fffa;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.TLVController">
+   <children>
+      <Label layoutX="177.0" layoutY="14.0" text="Lista de tarefas" textAlignment="CENTER" textFill="#9a9a9a">
+         <font>
+            <Font name="Arial" size="36.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="taskList" layoutX="14.0" layoutY="69.0" opacity="0.5" prefHeight="252.0" prefWidth="573.0" promptText="Anote suas tarefas aqui" />
+      <Button fx:id="update" layoutX="311.0" layoutY="334.0" mnemonicParsing="false" onAction="#onBtnUpdateClick" prefHeight="25.0" prefWidth="146.0" style="-fx-background-color: e3e3e3; -fx-border-radius: 20; -fx-background-radius: 20;" text="Atualizar tarefas" />
+      <Button fx:id="loadBtn" layoutX="145.0" layoutY="334.0" mnemonicParsing="false" onAction="#onBtnLoadClick" prefHeight="25.0" prefWidth="146.0" style="-fx-background-color: #e3e3e3; -fx-border-radius: 20; -fx-background-radius: 20;" text="Carregar tarefas" />
+   </children>
+</Pane>

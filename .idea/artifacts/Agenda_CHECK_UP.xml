@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="Agenda CHECK-UP">
+    <output-path>$PROJECT_DIR$/out/artifacts/Agenda_CHECK_UP</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="com.application.Main" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="icons">
+          <JavaFxApplicationIcons>
+            <option name="windowsIcon" value="$PROJECT_DIR$/res/icon.ico" />
+          </JavaFxApplicationIcons>
+        </option>
+        <option name="nativeBundle" value="exe" />
+        <option name="title" value="Agenda CHECK-UP" />
+        <option name="vendor" value="GG Dev." />
+        <option name="version" value="1.0.3" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="Agenda_CHECK_UP.jar">
+        <element id="module-output" name="Agenda CHECK-UP" />
+      </element>
+    </root>
+  </artifact>
+</component>

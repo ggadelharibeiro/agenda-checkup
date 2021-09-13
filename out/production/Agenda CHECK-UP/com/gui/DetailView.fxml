@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="242.0" style="-fx-background-color: #f7fffa;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.DVController">
+   <children>
+      <Label layoutX="91.0" layoutY="14.0" prefHeight="31.0" prefWidth="60.0" text="Detalhes" textAlignment="JUSTIFY">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="350.0" text="Versão 1.0.3" textFill="#9a9a9a" />
+      <Label layoutX="72.0" layoutY="192.0" text="Guilherme Gadelha" textFill="#9a9a9a" />
+      <Label layoutX="83.0" layoutY="166.0" text="Desenvolvedor" textFill="#9a9a9a" />
+      <Separator layoutX="21.0" layoutY="44.0" prefWidth="200.0" />
+      <Separator layoutX="23.0" layoutY="374.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

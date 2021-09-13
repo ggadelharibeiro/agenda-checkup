@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Agenda_CHECK_UP.jnlp">
+  <information>
+    <title>Agenda CHECK-UP</title>
+    <vendor>GG Dev.</vendor>
+    <description>Agenda CHECK-UP</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Agenda_CHECK_UP.jar" size="14171" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="com.application.Main"  name="Agenda CHECK-UP" />
+  <update check="background"/>
+</jnlp>

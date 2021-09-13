@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="399.0" prefWidth="600.0" style="-fx-background-color: #f5fff8;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.MVController">
+   <children>
+      <DatePicker fx:id="date_selection" layoutX="14.0" layoutY="14.0" style="-fx-background-color: #089e00;" />
+      <Separator layoutX="-11.0" layoutY="48.0" prefHeight="3.0" prefWidth="612.0" style="-fx-background-color: #089e00;" />
+      <TextField fx:id="form1_name" layoutX="60.0" layoutY="74.0" prefHeight="25.0" prefWidth="521.0" promptText="Nome" style="-fx-border-radius: 20; -fx-background-color: #f5fff8; -fx-border-color: #089e00;" />
+      <Label layoutX="14.0" layoutY="78.0" text="15:00" textOverrun="CENTER_ELLIPSIS" />
+      <TextField fx:id="form1_patology" layoutX="60.0" layoutY="113.0" prefHeight="25.0" prefWidth="359.0" promptText="Patologia" style="-fx-border-color: #089e00; -fx-border-radius: 20; -fx-background-color: #f5fff8;" />
+      <TextField fx:id="form1_birth" layoutX="432.0" layoutY="113.0" promptText="Data de nascimento" style="-fx-background-color: #f5fff8; -fx-border-color: #089e00; -fx-border-radius: 20;" />
+      <TextField fx:id="form2_name" layoutX="60.0" layoutY="174.0" prefHeight="25.0" prefWidth="521.0" promptText="Nome" style="-fx-background-color: #f5fff8; -fx-border-radius: 20; -fx-border-color: #089e00;" />
+      <Label layoutX="14.0" layoutY="178.0" text="16:30" textOverrun="CENTER_ELLIPSIS" />
+      <TextField fx:id="form2_patology" layoutX="60.0" layoutY="215.0" prefHeight="25.0" prefWidth="359.0" promptText="Patologia" style="-fx-border-color: #089e00; -fx-background-color: #f5fff8; -fx-border-radius: 20;" />
+      <TextField fx:id="form2_birth" layoutX="432.0" layoutY="215.0" promptText="Data de nascimento" style="-fx-border-radius: 20; -fx-background-color: #f5fff8; -fx-border-color: #089e00;" />
+      <TextField fx:id="form3_name" layoutX="63.0" layoutY="275.0" prefHeight="25.0" prefWidth="521.0" promptText="Nome" style="-fx-border-color: #089e00; -fx-border-radius: 20; -fx-background-color: #f5fff8;" />
+      <Label layoutX="17.0" layoutY="279.0" text="18:00" textOverrun="CENTER_ELLIPSIS" />
+      <TextField fx:id="form3_patology" layoutX="63.0" layoutY="316.0" prefHeight="25.0" prefWidth="359.0" promptText="Patologia" style="-fx-border-color: #089e00; -fx-border-radius: 20; -fx-background-color: #f5fff8;" />
+      <TextField fx:id="form3_birth" layoutX="435.0" layoutY="316.0" promptText="Data de nascimento" style="-fx-border-color: #089e00; -fx-border-radius: 20; -fx-background-color: #f5fff8;" />
+      <Separator layoutX="200.0" layoutY="154.0" prefWidth="200.0" style="-fx-background-color: #089e00;" />
+      <Separator layoutX="200.0" layoutY="256.0" prefWidth="200.0" style="-fx-background-color: #089e00;" />
+      <RadioButton fx:id="form2_radio_discount" layoutX="13.0" layoutY="201.0" mnemonicParsing="false" text="D" />
+      <RadioButton fx:id="form1_radio_discount" layoutX="13.0" layoutY="101.0" mnemonicParsing="false" text="D" />
+      <RadioButton fx:id="form3_radio_discount" layoutX="17.0" layoutY="300.0" mnemonicParsing="false" text="D" />
+      <Button fx:id="saveBtn" layoutX="480.0" layoutY="360.0" mnemonicParsing="false" onAction="#onBtSaveClick" prefHeight="25.0" prefWidth="104.0" style="-fx-background-color: #f5fff8; -fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: #089e00;" text="Save" />
+      <RadioButton fx:id="form2_radio_check" layoutX="14.0" layoutY="223.0" mnemonicParsing="false" text="P" />
+      <RadioButton fx:id="form1_radio_check" layoutX="13.0" layoutY="122.0" mnemonicParsing="false" text="P" />
+      <RadioButton fx:id="form3_radio_check" layoutX="17.0" layoutY="320.0" mnemonicParsing="false" text="P" />
+      <Button fx:id="loadBtn" layoutX="200.0" layoutY="14.0" mnemonicParsing="false" onAction="#onBtLoadClick" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #f5fff8; -fx-border-color: #089e00; -fx-border-radius: 20;" text="Load" />
+      <Label layoutX="373.0" layoutY="13.0" prefHeight="17.0" prefWidth="274.0" text="Check-UP Clínica Médica" textAlignment="JUSTIFY" textFill="#7c7c7c">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
